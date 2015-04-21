@@ -4,10 +4,16 @@
         <title>My Angular Project</title>
     </head>
     <body ng-app="mainApp">
+        <div p5-header></div>
+        <ng-view></ng-view>
+        <div class="p5-footer"></div>
+        <!--
         <p5-header></p5-header>
         {{1+2}}
         <p5-footer></p5-footer>
+        -->
         <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-route/angular-route.min.js"></script>
         <script src="module/src/app.js"></script>
     </body>
 </html>
